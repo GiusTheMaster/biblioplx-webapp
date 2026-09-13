@@ -1,0 +1,32 @@
+[
+  {
+    "id": "phb-01-magic-missile",
+    "nome": "Dardo Incantato",
+    "livello": 1,
+    "scuola": "Evocazione",
+    "tempo": "1 Azione",
+    "gittata": "36 m",
+    "comp": "V, S",
+    "note": "scheletro PHB — descrizione non inclusa"
+  },
+  {
+    "id": "phb-02-fireball",
+    "nome": "Palla di Fuoco",
+    "livello": 3,
+    "scuola": "Evocazione",
+    "tempo": "1 Azione",
+    "gittata": "45 m",
+    "comp": "V, S, M",
+    "note": "scheletro PHB — descrizione non inclusa"
+  },
+  {
+    "id": "phb-03-cure-wounds",
+    "nome": "Cura Ferite",
+    "livello": 1,
+    "scuola": "Invocazione",
+    "tempo": "1 Azione",
+    "gittata": "Tocco",
+    "comp": "V, S",
+    "note": "scheletro PHB — descrizione non inclusa"
+  }
+]
