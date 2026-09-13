@@ -111,6 +111,24 @@
         <button class="btn-submit" onclick="importJSON()">Importa Dati</button>
         <button class="btn-submit btn-alt" onclick="exportJSON()">Esporta Backup Dati</button>
       </div>
+
+      <h3 class="section-title">Importa da file / Demo (automatico a blocchi da 20)</h3>
+      <div class="editor-form">
+        <div class="form-group">
+          <label>Carica file JSON (schema richiesto nello help)</label>
+          <input type="file" id="json-file" accept="application/json" class="form-control">
+        </div>
+        <div class="form-group-inline">
+          <button class="btn-submit" id="btn-import-file">Importa da file (auto 20)</button>
+          <button class="btn-submit btn-alt" id="btn-import-demo">Importa Demo (20)</button>
+        </div>
+        <div id="import-status" style="color:var(--text-muted); margin-top:10px;">Nessuna importazione in corso.</div>
+      </div>
+
+      <div class="editor-form">
+        <div style="font-size:0.9rem; color:var(--text-muted);">Legenda rarità oggetti: <span class="rarity-inline"><span class="rarity-icon rarity-common"> </span> Comune</span> <span class="rarity-inline"><span class="rarity-icon rarity-uncommon"> </span> Non comune</span> <span class="rarity-inline"><span class="rarity-icon rarity-rare"> </span> Raro</span> <span class="rarity-inline"><span class="rarity-icon rarity-very-rare"> </span> Molto raro</span> <span class="rarity-inline"><span class="rarity-icon rarity-legendary"> </span> Leggendario/Artefatto</span></div>
+      </div>
+
     </section>
 
   </main>
